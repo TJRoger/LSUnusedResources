@@ -38,12 +38,12 @@
 		B120ACAD1F15D04000930A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		B120ACAF1F16504900930A95 /* ResourceSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceSettings.h; sourceTree = "<group>"; };
 		B120ACB01F16504900930A95 /* ResourceSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceSettings.m; sourceTree = "<group>"; };
-		B1313CA51B942827001CD7CF /* LSUnusedResources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSUnusedResources.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1313CA51B942827001CD7CF /* Go Unused.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Unused.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1313CA91B942827001CD7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1313CAA1B942827001CD7CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1313CAB1B942827001CD7CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1313CAD1B942827001CD7CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1313CBB1B942827001CD7CF /* LSUnusedResourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSUnusedResourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1313CBB1B942827001CD7CF /* Go UnusedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go UnusedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1313CC01B942828001CD7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1313CC11B942828001CD7CF /* LSUnusedResourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSUnusedResourcesTests.m; sourceTree = "<group>"; };
 		B1313CD11B943075001CD7CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 		B1313CA61B942827001CD7CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1313CA51B942827001CD7CF /* LSUnusedResources.app */,
-				B1313CBB1B942827001CD7CF /* LSUnusedResourcesTests.xctest */,
+				B1313CA51B942827001CD7CF /* Go Unused.app */,
+				B1313CBB1B942827001CD7CF /* Go UnusedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1313CA41B942827001CD7CF /* LSUnusedResources */ = {
+		B1313CA41B942827001CD7CF /* Go Unused */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1313CC51B942828001CD7CF /* Build configuration list for PBXNativeTarget "LSUnusedResources" */;
+			buildConfigurationList = B1313CC51B942828001CD7CF /* Build configuration list for PBXNativeTarget "Go Unused" */;
 			buildPhases = (
 				B1313CA11B942827001CD7CF /* Sources */,
 				B1313CA21B942827001CD7CF /* Frameworks */,
@@ -196,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = LSUnusedResources;
+			name = "Go Unused";
 			productName = LSUnusedResources;
-			productReference = B1313CA51B942827001CD7CF /* LSUnusedResources.app */;
+			productReference = B1313CA51B942827001CD7CF /* Go Unused.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B1313CBA1B942827001CD7CF /* LSUnusedResourcesTests */ = {
+		B1313CBA1B942827001CD7CF /* Go UnusedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1313CC81B942828001CD7CF /* Build configuration list for PBXNativeTarget "LSUnusedResourcesTests" */;
+			buildConfigurationList = B1313CC81B942828001CD7CF /* Build configuration list for PBXNativeTarget "Go UnusedTests" */;
 			buildPhases = (
 				B1313CB71B942827001CD7CF /* Sources */,
 				B1313CB81B942827001CD7CF /* Frameworks */,
@@ -214,9 +214,9 @@
 			dependencies = (
 				B1313CBD1B942827001CD7CF /* PBXTargetDependency */,
 			);
-			name = LSUnusedResourcesTests;
+			name = "Go UnusedTests";
 			productName = LSUnusedResourcesTests;
-			productReference = B1313CBB1B942827001CD7CF /* LSUnusedResourcesTests.xctest */;
+			productReference = B1313CBB1B942827001CD7CF /* Go UnusedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -226,10 +226,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = lessfun.com;
+				ORGANIZATIONNAME = tjroger.tk;
 				TargetAttributes = {
 					B1313CA41B942827001CD7CF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7KXVPC4Y3C;
+						ProvisioningStyle = Automatic;
 					};
 					B1313CBA1B942827001CD7CF = {
 						CreatedOnToolsVersion = 6.4;
@@ -237,11 +239,12 @@
 					};
 				};
 			};
-			buildConfigurationList = B1313CA01B942827001CD7CF /* Build configuration list for PBXProject "LSUnusedResources" */;
+			buildConfigurationList = B1313CA01B942827001CD7CF /* Build configuration list for PBXProject "Go Unused" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1313CA41B942827001CD7CF /* LSUnusedResources */,
-				B1313CBA1B942827001CD7CF /* LSUnusedResourcesTests */,
+				B1313CA41B942827001CD7CF /* Go Unused */,
+				B1313CBA1B942827001CD7CF /* Go UnusedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		B1313CBD1B942827001CD7CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1313CA41B942827001CD7CF /* LSUnusedResources */;
+			target = B1313CA41B942827001CD7CF /* Go Unused */;
 			targetProxy = B1313CBC1B942827001CD7CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,12 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7KXVPC4Y3C;
 				INFOPLIST_FILE = LSUnusedResources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lessfun.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.tjroger.Go-Unused";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -418,12 +425,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7KXVPC4Y3C;
 				INFOPLIST_FILE = LSUnusedResources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lessfun.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.tjroger.Go-Unused";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -444,7 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lessfun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSUnusedResources.app/Contents/MacOS/LSUnusedResources";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Unused.app/Contents/MacOS/Go Unused";
 			};
 			name = Debug;
 		};
@@ -461,14 +472,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lessfun.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSUnusedResources.app/Contents/MacOS/LSUnusedResources";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Unused.app/Contents/MacOS/Go Unused";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1313CA01B942827001CD7CF /* Build configuration list for PBXProject "LSUnusedResources" */ = {
+		B1313CA01B942827001CD7CF /* Build configuration list for PBXProject "Go Unused" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1313CC31B942828001CD7CF /* Debug */,
@@ -477,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1313CC51B942828001CD7CF /* Build configuration list for PBXNativeTarget "LSUnusedResources" */ = {
+		B1313CC51B942828001CD7CF /* Build configuration list for PBXNativeTarget "Go Unused" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1313CC61B942828001CD7CF /* Debug */,
@@ -486,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1313CC81B942828001CD7CF /* Build configuration list for PBXNativeTarget "LSUnusedResourcesTests" */ = {
+		B1313CC81B942828001CD7CF /* Build configuration list for PBXNativeTarget "Go UnusedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1313CC91B942828001CD7CF /* Debug */,

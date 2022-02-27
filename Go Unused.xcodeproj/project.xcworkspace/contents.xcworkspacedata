@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LSUnusedResources.xcodeproj">
+      location = "self:/Users/rogerluo/develop/apple/objc/Mac/LSUnusedResources/Go Unused.xcodeproj">
    </FileRef>
 </Workspace>
