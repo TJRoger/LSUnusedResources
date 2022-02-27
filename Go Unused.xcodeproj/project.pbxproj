@@ -104,8 +104,8 @@
 		B1313C9C1B942827001CD7CF = {
 			isa = PBXGroup;
 			children = (
-				B1313CA71B942827001CD7CF /* LSUnusedResources */,
-				B1313CBE1B942828001CD7CF /* LSUnusedResourcesTests */,
+				B1313CA71B942827001CD7CF /* Go Unused */,
+				B1313CBE1B942828001CD7CF /* Go UnusedTests */,
 				B1313CA61B942827001CD7CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1313CA71B942827001CD7CF /* LSUnusedResources */ = {
+		B1313CA71B942827001CD7CF /* Go Unused */ = {
 			isa = PBXGroup;
 			children = (
 				B1313CAA1B942827001CD7CF /* AppDelegate.h */,
@@ -130,7 +130,7 @@
 				B120AC9E1F15D01F00930A95 /* Resource */,
 				B1313CA81B942827001CD7CF /* Supporting Files */,
 			);
-			path = LSUnusedResources;
+			path = "Go Unused";
 			sourceTree = "<group>";
 		};
 		B1313CA81B942827001CD7CF /* Supporting Files */ = {
@@ -142,13 +142,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B1313CBE1B942828001CD7CF /* LSUnusedResourcesTests */ = {
+		B1313CBE1B942828001CD7CF /* Go UnusedTests */ = {
 			isa = PBXGroup;
 			children = (
 				B1313CC11B942828001CD7CF /* LSUnusedResourcesTests.m */,
 				B1313CBF1B942828001CD7CF /* Supporting Files */,
 			);
-			path = LSUnusedResourcesTests;
+			path = "Go UnusedTests";
 			sourceTree = "<group>";
 		};
 		B1313CBF1B942828001CD7CF /* Supporting Files */ = {
