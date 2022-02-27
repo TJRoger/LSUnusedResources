@@ -1,6 +1,6 @@
 //
-//  LSUnusedResourcesTests.m
-//  LSUnusedResourcesTests
+//  Go UnusedTests.m
+//  Go UnusedTests
 //
 //  Created by lslin on 15/8/31.
 //  Copyright (c) 2015年 lessfun.com. All rights reserved.
@@ -9,11 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface LSUnusedResourcesTests : XCTestCase
+@interface Go UnusedTests : XCTestCase
 
 @end
 
-@implementation LSUnusedResourcesTests
+@implementation Go UnusedTests
 
 - (void)setUp {
     [super setUp];

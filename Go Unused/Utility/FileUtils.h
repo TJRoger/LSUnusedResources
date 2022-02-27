@@ -1,6 +1,6 @@
 //
 //  FileUtils.h
-//  LSUnusedResources
+//  Go Unused
 //
 //  Created by jhgfer on 16/4/25.
 //  Copyright © 2016年 lessfun.com. All rights reserved.

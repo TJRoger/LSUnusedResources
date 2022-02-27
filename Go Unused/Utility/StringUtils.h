@@ -1,6 +1,6 @@
 //
 //  StringUtils.h
-//  LSUnusedResources
+//  Go Unused
 //
 //  Created by lslin on 15/9/1.
 //  Copyright (c) 2015年 lessfun.com. All rights reserved.
